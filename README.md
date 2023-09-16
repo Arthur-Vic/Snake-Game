@@ -1,5 +1,5 @@
 # Snake Game in Python with Turtle Module
-# Unfinished (Yet)
+## Work in progress
 
 ## Overview
 
