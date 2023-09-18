@@ -1,6 +1,8 @@
 # Snake Game in Python with Turtle Module
 ## Work in progress
 
+![Snake Game](snake.png)
+
 ## Overview
 
 For this project, I used the Python Turtle module for graphics and user input handling. This project was also a great opportunity to apply and refine my Object-Oriented Programming (OOP) skills. By embracing OOP principles, the game presents a structured and maintainable codebase, making it simple to make desired changes with no complications.
