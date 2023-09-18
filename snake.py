@@ -16,16 +16,14 @@ class Snake():
         self.create_snake(snake_length)
         self.head = self.snake_turtles[0]
 
-
     def create_snake(self, snake_length):
         for new_turtle_index in range(snake_length):
             new_turtle = Turtle()
             self.snake_turtles.append(new_turtle)
             new_turtle.penup()
-            new_turtle.shape('square')
+            new_turtle.shape('circle')
             new_turtle.color('white')
             new_turtle.goto(-20*new_turtle_index,0)
-
 
     def move(self):
         for turtle in range(len(self.snake_turtles) - 1, 0, -1):
