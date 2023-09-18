@@ -11,4 +11,5 @@ For this project, I used the Python Turtle module for graphics and user input ha
 Use the WASD keys to control the snake's movement.
 The snake will move continuously in the direction specified.
 The goal is to collect as many food items as possible to increase the snake's length.
-The game ends if the snake collides with the boundaries of the window or runs into its own body.
+The game ends if the snake runs into its own body.
+Depending on the game mode, the game also ends if the snake collides with the boundaries of the window; otherwise, it passes through the outer perimeter of the game window and comes back from the opposite side.
